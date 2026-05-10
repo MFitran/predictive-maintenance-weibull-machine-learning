@@ -56,13 +56,13 @@ The Weibull Error Metrics was developed to evaluate performance of all machine l
 
 the main objective of this study is to develop and apply machine learning on a Weibull Scale Parameter ($\lambda$). From a static parameter to a dynamic, covariate-driven estimate,. this could hypotethically gives a more accurate percentage-based assessment of a system's Remaining Useful Life (RUL).
 
-### 1. [Aircraft Engine RUL Prediction](./aircraft-engine-rul/)
+### 1. [Aircraft Engine RUL Prediction](./dir01-aircraft-engine-rul/)
 Based on the research: *"A Comparative Analysis of Machine Learning Models for Aircraft Engine Remaining Useful Life Prediction."*
 * **Objective:** Comparative study of 12 unique preprocessing pipelines.
 * **Models:** Linear Regression, XGBoost, and K-Nearest Neighbors (KNN).
 * **Datasets:** NASA C-MAPSS (Turbofan Engine Degradation).
 
-### 2. [Hybrid Tire Maintenance System](./tire-degradation/)
+### 2. [Tire Maintenance System](./dir02-tire-degradation/)
 Based on the research: *"Hybrid ML-Weibull Predictive Maintenance System for Dynamic Tire Remaining Useful Life Estimation."*
 * **Objective:** Using an edge-cloud architecture to dynamically predict the Weibull $\lambda$ parameter.
 * **Hardware context:** ESP32-S3 gateway capturing TPMS, OBD-II, and GPS data.
