@@ -29,7 +29,7 @@ $$F(t; k, \lambda) = 1 - e^{-(t/\lambda)^k}$$
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/b9e4ff99-d4c5-4827-9501-0eb57496810e" />
 
 ### 3. Development of Weibull Error Metrics
-The Weibull Error Metrics was developed to evaluate performance of all machine learning models trained in this research. More on this is discussed on this [journal](https://etasr.com/index.php/ETASR/article/view/15186).
+The Weibull Error Metrics was developed to evaluate performance of all machine learning models trained in this research. More on this is discussed on this [Journal titled "Machine Learning for Covariate-Driven Changes in Weibull Scale Parameter"](https://doi.org/10.48084/etasr.15186).
 1. Weibull Error (WE)
  - $WE(t_i,\ \ \lambda,\ \ k)=t+\frac{2\lambda}{k}\mathrm{\Gamma}\left(\frac{1}{k},\left(\frac{t}{\lambda}\right)^k\right)-\frac{\lambda}{k}\mathrm{\Gamma}\left(\frac{1}{k}\right)$
  - $MWE=\frac{1}{n}\sum_{i=1}^{n}{WE(t_i,\ \ \lambda,\ \ k)}$
@@ -42,7 +42,7 @@ The Weibull Error Metrics was developed to evaluate performance of all machine l
 4. Left Weibull Error
  - $LWE(t_i,\ \ \lambda,\ \ k)=t+\frac{\lambda}{k}\mathrm{\Gamma}\left(\frac{1}{k},\left(\frac{t}{\lambda}\right)^k\right)-\frac{\lambda}{k}\mathrm{\Gamma}\left(\frac{1}{k}\right)$
  - $MLWE=\frac{1}{n}\sum_{i=1}^{n}{LWE(t_i,\ \ \lambda,\ \ k)}$
- - 
+
 <img width="526" height="321" alt="image" src="https://github.com/user-attachments/assets/9e15249a-9692-4309-ac55-e668933d8ac5" />
 
 
