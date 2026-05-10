@@ -32,7 +32,7 @@ The core of this research is the evaluation of how preprocessing affects model p
 ## 🚀 How to Download and Train
 
 ### Step 1: Obtain the Dataset
-1. Visit the [NASA Prognostics Data Repository](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data/resource/5224bcd1-ad61-490b-93b9-2817288accb8) or download through the zip file `CMAPSSData` in this directory.
+1. Visit the [NASA Prognostics Data Repository](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data/resource/5224bcd1-ad61-490b-93b9-2817288accb8) or download through the file `CMAPSSData.zip` in this directory.
 2. Download the **Turbofan Engine Degradation Simulation Data Set (C-MAPSS)**.
 3. Extract the files (e.g., `train_FD001.txt`, `test_FD001.txt`, `RUL_FD001.txt`).
 
