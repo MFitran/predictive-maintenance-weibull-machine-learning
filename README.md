@@ -91,8 +91,8 @@ predictive-maintenance-weibull-machine-learning/
     - vehicle_logs_tread_24_1.csv
     - vehicle_logs_tread_24_2.csv
   - nb00_fix_sensor_reading.ipynb
-  - nb01_model_training.ipynb
-  - nb02_model_training.ipynb
+  - nb01_model_training_experimentation.ipynb
+  - nb02_model_training_evaluation.ipynb
 - .gitignore
 - requirements.txt
 - README.md
