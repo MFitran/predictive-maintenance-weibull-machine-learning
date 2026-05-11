@@ -83,7 +83,7 @@ predictive-maintenance-weibull-machine-learning/
   - nb00_model_training.ipynb
   - nb01_prediction_visualization.ipynb
 - dir02-tire-degradation/ 
-  - data/
+  - datasets/
     - vehicle_logs_rows.csv
     - vehicle_logs_tread_14_1.csv
     - vehicle_logs_tread_14_2.csv
