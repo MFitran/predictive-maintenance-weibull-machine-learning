@@ -40,10 +40,12 @@ The core of this research is the evaluation of how preprocessing affects model p
 Place the extracted `.txt` files into a folder named `data/` within this project directory. If using Colab, upload these to your specific Google Drive folder.
 
 ### Step 3: Run the Notebooks
-1.  **Open `01_data_exploration.ipynb`:** Use this to visualize sensor trends and understand the degradation curves of the turbofan units.
-2.  **Open `02_model_training.ipynb`:** * Change the `root_path` variable to point to your data location.
+2.  **Open `nb00_model_training.ipynb`:** * Change the `root_path` variable to point to your data location.
     * The script is designed to iterate through all 12 preprocessing pipelines.
     * **Training:** Execute the cells to train the models. The notebook will automatically calculate performance metrics.
+3. **Open `nb01_prediction_visualization.ipynb`:** : Use this to visualize trends and understand the degradation curves of the turbofan units.
+    * By varying the shape parameter $k$, the plot illustrates different failure behaviors. In aircraft engines, a $k > 1$ (as seen in your parameters where $k \approx 4.35$) represents the "wear-out" stage.
+    * The green line ("Actual RUL") is a perfect linear countdown to zero. The goal of aircraft predictive maintenance is to observe the "Degradation" trend and accurately estimate where it will intersect the $y=0$ threshold.
 
 ### Step 4: Evaluate Results
 The models are evaluated using standard metrics and custom Weibull-specific metrics:
