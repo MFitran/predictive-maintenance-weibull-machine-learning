@@ -73,22 +73,26 @@ Based on the research: *"Hybrid ML-Weibull Predictive Maintenance System for Dyn
 ## 📂 Repository Structure
 
 predictive-maintenance-weibull-machine-learning/
-- dir00-learning
-- dir01-aircraft-engine/
+- dir00-learning-weibull-distribution
+  - README.md
+  - nb00_probability_distribution.ipynb
+  - nb01_weibull_distribution.ipynb
+- dir01-aircraft-engine-rul/
   - CMAPPSData.zip
-  - model_training.ipynb
   - README.md 
+  - nb00_model_training.ipynb
+  - nb01_prediction_visualization.ipynb
 - dir02-tire-degradation/ 
   - data/
-    - raw_telemetry_data.csv
-    - processed/
-      - data_1.csv
-  - notebooks/
-    - 01_data_preprocessing.ipynb
-    - 02_hybrid_modelling.ipynb
-    - README.md
-- ProbabilityDistributions.ipynb
-- weibull_visualizatoin.ipynb
+    - vehicle_logs_rows.csv
+    - vehicle_logs_tread_14_1.csv
+    - vehicle_logs_tread_14_2.csv
+    - vehicle_logs_tread_21.csv
+    - vehicle_logs_tread_24_1.csv
+    - vehicle_logs_tread_24_2.csv
+  - nb00_fix_sensor_reading.ipynb
+  - nb01_model_training.ipynb
+  - nb02_model_training.ipynb
 - .gitignore
 - requirements.txt
 - README.md
