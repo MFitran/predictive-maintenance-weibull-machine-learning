@@ -79,6 +79,12 @@ The performance is validated using standard regression metrics alongside reliabi
 
 ---
 
+## Implemantation
+
+Youtube (bahasa) : https://www.youtube.com/watch?v=4htOM1ONs-Q
+
+---
+
 ## 📝 Citation
 
 If you use this code or the hybrid methodology in your research, please cite:
